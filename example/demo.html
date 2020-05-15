@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tape Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <h1>Placeholder demo</h1>
+
+  <p>This is just a simple placeholder</p>
+
+  <label for"tapeselect">1: Select a cassette: </label>
+  <select id="tapeselect">
+    <option value="mixtape" selected>Name of tape</option>
+  </select>
+
+  <label for="sideselect">2: Select a side: </label>
+  <select id="sideselect">
+    <option value="a" selected>Side A</option>
+    <option value="b">Side B</option>
+  </select>
+
+  <label for="insert">3: Insert it: </label>
+  <button id="insert">Insert Cassette</button>
+
+  <as-tape-player id="tapeplayer"></as-tape-player>
+
+  <script src="tapeplayer/tapeplayer.js">
+  </script>
+  <script src="library.js">
+  </script>
+</body>
+
+</html>
